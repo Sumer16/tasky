@@ -31,12 +31,12 @@ body{
 }
 
 #name{
-  font-size: 30px;
+  font-size: 36px;
 }
 
 .clear{
-  width : 30px;
-  height: 30px;
+  width : 33px;
+  height: 33px;
 }
 .clear i{
   font-size: 25px;
@@ -49,7 +49,7 @@ body{
 }
 
 #date{
-  font-size: 15px;
+  font-size: 18px;
   padding: 5px 0;
 }
 
