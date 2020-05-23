@@ -55,7 +55,7 @@ body{
 
 .content{
   height: 640px;
-  padding-bottom: 1.1rem;
+  padding-bottom: 0.8rem;
   overflow-y: scroll;
   overflow-x: hidden;
 }
@@ -130,7 +130,7 @@ body{
   height: 35px;
   width: 300px;
   color: var(--icon-color);
-  background-color: transparent;
+  background-color: #222831;
   border: none;
   outline: none;
   font-size: 20px;
