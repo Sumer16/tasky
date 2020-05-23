@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  --icon-color: #e43f5a;
+}
+
+body{
+  font-family: 'Open Sans', sans-serif;
+  background-color: #222831;
+  color: #ccc;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.container{
+  overflow: hidden;
+  padding: 10px;
+}
+
+.header{
+  height: 90px;  
+}
+
+.header-content{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#name{
+  font-size: 30px;
+}
+
+.clear{
+  width : 30px;
+  height: 30px;
+}
+.clear i{
+  font-size: 25px;
+  color: var(--icon-color);
+}
+.clear i:hover{
+  cursor: pointer;
+  text-shadow: 1px 3px 5px #000;
+  transform: rotate(45deg);
+}
+
+#date{
+  font-size: 15px;
+  padding: 5px 0;
+}
+
+.content{
+  height: 650px;
+  padding-bottom: 1.1rem;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+.content ul{
+  padding:0;
+  margin:0;
+  word-wrap: break-word;
+}
+.item{
+  height: 45px;
+  max-height: 100px;
+  position: relative;
+  border-bottom: 1px solid rgba(0,0,0,0.1);
+  list-style: none;
+  padding: 0;
+  margin: 0 auto;
+}
+.item i.co{
+  position: absolute;
+  font-size: 25px;
+  padding-left:5px;
+  left:15px;
+  top:10px;
+}
+.item i.co:hover{
+  cursor: pointer;
+}
+.fa-check-circle{
+  color: var(--icon-color);
+}
+.item p.text{
+  position: absolute;
+  padding:0;
+  margin:0;
+  font-size: 20px;
+  left: 55px;
+  top: 8px;
+  max-width: 250px;
+}
+.lineThrough{
+  text-decoration: line-through;
+  color : #ccc;
+}
+.item i.de{
+  position: absolute;
+  font-size: 25px;
+  right:15px;
+  top:10px;
+}
+.item i.de:hover{
+  color:#af0000;
+  cursor: pointer;
+}
+
+.add-todos{
+  position: absolute;
+  bottom: 0;
+  width: 360px;
+  margin: 0 auto;
+  height: 3.5rem; 
+  border-top: 1px solid rgba(0,0,0,0.1);
+  display: flex;
+  padding: 10px 0;
+  justify-content: space-between;
+}
+.add-todos i{
+  font-size: 40px;
+  color: var(--icon-color);
+}
+.add-todos input{
+  height: 35px;
+  width: 310px;
+  color: var(--icon-color);
+  background-color: transparent;
+  border: none;
+  outline: none;
+  font-size: 20px;
+  padding-left: 7px;
+}
+
+#submit{
+  border: none;
+  outline: none;
+  background-color: #222831;
+}
