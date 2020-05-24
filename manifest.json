@@ -6,7 +6,7 @@
   "display": "standalone",
   "orientation": "portrait",
   "Scope": "/",
-  "start_url": "https://sumer16.github.io/tasky",
+  "start_url": "https://sumer16.github.io/tasky/",
   "icons": [
     {
       "src": "images/icons/icon-72x72.png",
