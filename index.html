@@ -3,11 +3,18 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="css/style.css">
+  <meta name="theme-color" content="#e43f5a">
   <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
-  <link rel="manifest" href="manifest.json">
-  <script src="https://kit.fontawesome.com/5c1532dcf4.js" crossorigin="anonymous"></script>
+  <link rel="manifest" href="/manifest.json">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/font-awesome.css">
   <title>To-dos List</title>
+  <script type="module">
+    import 'https://cdn.jsdelivr.net/npm/@pwabuilder/pwaupdate';
+
+    const el = document.createElement('pwa-update');
+    document.body.appendChild(el);
+  </script>
 </head>
 <body>
   <div class="container">
